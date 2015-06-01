@@ -1,0 +1,42 @@
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9357ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 0.4319ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"English", "order"=>1, "codes"=>["eng"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 101.1558ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"Spanish", "order"=>2, "codes"=>["spa"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 15.7980ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"Chinese", "order"=>3, "codes"=>["chi", "zho"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 0.4178ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"French", "order"=>4, "codes"=>["fre", "fra"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 0.3871ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"Sign Language", "order"=>5, "codes"=>["sgn"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 0.3833ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"Other", "order"=>6, "codes"=>["aar", "abk", "ave", "afr", "aka", "amh", "arg", "ara", "asm", "ava", "aym", "aze", "bak", "bul", "bih", "bis", "bam", "ben", "tib", "bre", "bos", "bur", "cat", "che", "cha", "cos", "cre", "cze", "cze", "chu", "chv", "wel", "dan", "ger", "ger", "div", "dzo", "ewe", "gre", "gre", "epo", "est", "baq", "baq", "per", "per", "ful", "fin", "fij", "fao", "fry", "gle", "gla", "glg", "grn", "guj", "glv", "hau", "heb", "hin", "hmo", "hrv", "hat", "hun", "arm", "arm", "her", "ina", "ind", "ile", "ibo", "iii", "ipk", "ido", "ice", "ita", "iku", "jpn", "jav", "geo", "kon", "kik", "kua", "kaz", "kal", "khm", "kan", "kor", "kau", "kas", "kur", "kom", "cor", "kir", "lat", "ltz", "lug", "lim", "lin", "lao", "lit", "lub", "lav", "mlg", "mah", "mao", "mac", "mal", "mon", "mar", "may", "mlt", "bur", "nau", "nob", "nde", "nep", "ndo", "dut", "dut", "nno", "nor", "nbl", "nav", "nya", "oci", "oji", "orm", "ori", "oss", "pan", "pli", "pol", "pus", "por", "que", "roh", "run", "rum", "rus", "kin", "san", "srd", "snd", "sme", "sag", "sin", "slo", "slv", "smo", "sna", "som", "alb", "srp", "ssw", "sot", "sun", "swe", "swa", "tam", "tel", "tgk", "tha", "tib", "tir", "tuk", "tgl", "tsn", "ton", "tur", "tso", "tat", "twi", "tah", "uig", "ukr", "urd", "uzb", "ven", "vie", "vol", "wln", "wel", "wol", "xho", "yid", "yor", "zha", "zul"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 0.9450ms
+  MOPED: 127.0.0.1:27017 INSERT       database=pophealth-test collection=languages documents=[{"name"=>"Unspecified", "order"=>7, "codes"=>["null"]}] flags=[]
+                         COMMAND      database=pophealth-test command={:getlasterror=>1, :w=>1} runtime: 0.3674ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8929ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 0.3122ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9821ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 0.3515ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9126ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 0.2999ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7195ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 23.2302ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7072ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 0.2198ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7395ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=pophealth-test command={:count=>"languages", :query=>{}} runtime: 12.2654ms
+Overwriting existing field start_date in class ProviderPerformance.
+Overwriting existing field end_date in class ProviderPerformance.
